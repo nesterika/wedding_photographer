@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+    color: #443F3F;
+}
+
+.mainWrap {
+    margin: 0 auto;
+    max-width: 1200px  !important;
+}
+
+
+/* --------------------------------------------------- */
+
+.first_block {
+    position: relative;
+    background: #ffffff url(../img/meetup.png) no-repeat;
+    background-color:black;
+    background-size: 100%;
+    background-position: 0%;
+    height: 450px;
+    color: white;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background {
+    background-color:#424242;
+}
+
+h1 {
+    position: relative;
+    top: 130px;
+    z-index: 14;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo {
+    position: relative;
+    top: -20px;
+    font-family: 'Train One', cursive;
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.header {
+    position: relative;
+    top: 165px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header a {
+    color: white;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    color: #03C0DB;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+.second-block {
+    position: relative;
+    background: black;
+    height: 550px;
+    overflow: hidden;
+}
+
+.second-block .world h2 {
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+}
+
+.second-block .world {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    width: 338px;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.second-block img {
+    position: relative;
+    height: 470px;
+    left: 227px;
+    top: -42px;
+}
+
+.second-block .text_aboutt{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    top: -175px;
+    margin: 0 auto;
+}
+
+.second-block .text_aboutt h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text_aboutt {
+    width: 522px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.text_about {
+    width: 522px;
+    float: left;
+}
+
+.text_about p {
+    font-size: 24px;
+}
+
+.third-block {
+    min-height: 550px;
+    padding: 0 40px;
+    margin-top: 91px;
+}
+
+.o-mero {
+    width: 280px;
+    border-bottom: 1px solid black;
+    margin-bottom: 60px;
+}
+
+.o-mero h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.third-block img {
+    float: right;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.sayers {
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 230px;
+    margin-bottom: 75px;
+}
+
+.sayers h2 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 140px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.wrap2 {
+	display: flex;
+	justify-content: space-between;
+	min-height: 384px;
+    padding: 0 110px;
+}
+
+.block_ {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 266px;
+}
+
+.informText {
+	text-align: center;
+}
+
+.informText img {
+    border-radius: 100%;
+    width: 266px;
+    height: 266px;
+}
+
+.mainT {
+	color: #443F3F;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 37px 0 10px 0;   
+}
+
+.secondT {
+	font-size: 18px;
+	margin: 0;
+    font-weight: 400;
+    color: #443F3F;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.partners {
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 185px;
+    margin-bottom: 75px;
+}
+
+.partners h2 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 140px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.img_par {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 116px;
+}
+
+.img_par img {
+    height: 283px;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.howTogo {
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 270px;
+    margin-bottom: 75px;
+}
+
+.howTogo h2 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 140px;
+}
+
+iframe {
+    margin: 0 160px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.footer{
+    color: white;
+    font-size: 18px;
+    height: 268px;
+    background-color: black;
+    margin-top: 86px;
+}
+
+.footer1 {
+    margin: 0 180px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+	justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer .block {
+    margin-top: 40px;
+    width: 265px;
+    height: 208px;
+}
+
+.footer .block  h3{
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer .block  a{
+    color: inherit;
+}
+
+

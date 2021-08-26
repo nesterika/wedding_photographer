@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+    color: #443F3F;
+}
+
+.mainWrap {
+    margin: 0 auto;
+    max-width: 1200px  !important;
+}
+
+/* --------------------------------------------------- */
+
+.first_block {
+    position: relative;
+    background: #ffffff url(../img/Girl.png) no-repeat;
+    background-color:black;
+    background-size: 100%;
+    background-position: 0%;
+    height: 450px;
+    color: white;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background {
+    background-color:#041115;
+}
+
+h1 {
+    position: relative;
+    top: 130px;
+    z-index: 14;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo {
+    position: relative;
+    top: -20px;
+    font-family: 'Train One', cursive;
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.header {
+    position: relative;
+    top: 165px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header a {
+    color: white;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    color: #03C0DB;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+.forGirls {
+    font-size: 32px;
+    text-align: center;
+    margin: 65px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.slider {
+    height: 855px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.slider img {
+    padding-top: 20px;
+    height: 812px;
+}
+
+.w {
+    position: absolute;
+    float: right;
+    left: 1110px;
+    top: 45%;
+    transform: rotate(180deg);
+}
+
+.q {
+    position: absolute;
+    float: left;
+    left: 50px;
+    top: 45%;
+}
+
+.q:hover {
+    width: 70px;
+    left: 20px;
+}
+
+.w:hover {
+    width: 70px;
+}
+
+.track {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.track .block {
+    width: 265px;
+    height: 172px;
+}
+
+.track .block img {
+    width: inherit;
+    height: inherit;
+}
+
+/* ------------------------------------------------------------- */
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	min-height: 320px;
+    margin-top: 43px;
+    margin-bottom: 54px;
+}
+
+.informBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25%;
+    border-right: 0.5px solid #777777;
+}
+
+.informText {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.mainText {
+	text-transform: uppercase;
+	color: #ABABAB;
+	font-size: 84px;
+	font-weight: 400;
+	margin: 25px 0 10px 0;
+}
+
+.secondText {
+	font-size: 24px;
+	margin: 0;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------- */
+
+.why h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 108px;
+}
+
+/* ------------------------------------------------------------- */
+
+.wrap2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 100%;
+	min-height: 373px;
+}
+
+.block_ {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 343px;
+}
+
+.informText {
+	text-align: center;
+}
+
+.mainT {
+	color: #443F3F;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 32px 0 36px 0;   
+}
+
+.secondT {
+	font-size: 18px;
+	margin: 0;
+    font-weight: 400;
+    color: #443F3F;
+}
+
+/* -------------------------------------------------------- */
+
+.prices h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 108px;
+    margin-top: 127px;
+}
+
+/* ------------------------------------------------------------------ */
+
+table {
+    border-collapse: collapse;
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+}
+
+
+td {
+    border-bottom: 1px solid black;
+    height: 77px;
+    width: inherit;
+}
+
+button {
+    width: 292px;
+    height: 62px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.third-block {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1120px;
+	min-height: 650px;
+}
+
+/* --------------------------------------------- */
+
+.footer{
+    color: #666666;
+    font-size: 24px;
+    line-height: 2;
+    min-height: 159px;
+    background-color: #1C1C1C;
+}
+
+.footer p {
+    position: relative;
+    top: 30px;
+    left: 40px;
+} 
+
+
+.footer .icons {
+    position: relative;
+    left: 900px;
+    top: -80px;
+}
+
+.icons{
+    width: 265px;
+    display: flex;
+	justify-content: space-between;   
+}
+
